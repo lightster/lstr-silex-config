@@ -1,0 +1,20 @@
+{
+	"name": "lightster/lstr-silex-config",
+	"description": "Lstr/Silex/Config Library",
+	"keywords": [
+		"silex",
+		"lstr",
+		"lightster",
+		"config"
+	],
+	"homepage": "http://lightdatasys.com",
+	"autoload": {
+		"psr-0": {
+			"Lstr\\Silex\\Config\\": "src/Lstr/Silex"
+		}
+	},
+	"require": {
+		"php": ">=5.3",
+		"silex/silex": "~1.1"
+	}
+}
