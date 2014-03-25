@@ -10,8 +10,6 @@
 
 namespace Lstr\Silex\Config;
 
-use ArrayObject;
-
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 

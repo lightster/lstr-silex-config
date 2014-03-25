@@ -10,8 +10,6 @@
 
 namespace Lstr\Silex\Config;
 
-use ArrayObject;
-
 use Silex\Application;
 
 class ConfigService
@@ -22,8 +20,6 @@ class ConfigService
     {
         $this->app     = $app;
     }
-
-
 
     public function load(array $glob_paths)
     {
